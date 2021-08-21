@@ -1,0 +1,422 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.main{
+  
+  
+  text-transform: capitalize;
+}
+
+.side-panal{
+  background-color: #fff;
+  position: fixed;
+  padding-right: 12%;
+  height: 130%;
+  
+}
+.side-panal img{
+  margin: 5% 0 0 10%;
+  border-radius: 50%;
+  height: 10em;
+  width: 10em;
+  
+}
+
+.other-page-link ul,li{
+  margin: 5% 0 0 6%;
+  list-style: none;
+  
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 50px;
+}
+.other-page-link ul,li:hover{
+  margin: 5% 0 0 6%;
+  list-style: none;
+  
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+
+.other-page-link a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition-property: color;
+  transition-duration: 0.1s;
+}
+.other-page-link a:hover{
+  text-decoration: none;
+  color: red;
+  
+}
+.other-page-link ul li::after{
+  /* -------------------
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+    ------------------------- */
+  content: "";
+  display: block;
+  margin: 0%;
+  width: 30%;
+  height: 0.2%;
+  background: red;
+  position: absolute;
+}
+
+/* side page with pic discription and social links css */
+
+.Home-page{
+  height: 47%;
+}
+.right-content{
+  text-align: center;
+}
+.short-disc img{
+  border-radius: 50%;
+  border-color: #fff;
+  border-width: 10%;
+  border-style: solid;
+  height: 10em;
+  width: 10em;
+  margin-top: 15%;
+}
+
+
+.social-media .fa{
+  font-size: 15px;
+    padding: 12px;
+    color: #fff;
+    border-radius: 50%;
+    
+    border-style: solid;
+    background-color: rgb(255, 0, 0);
+    transition: 0.9s;
+}
+.social-media .fa:hover{
+  padding: 10px;
+  color: #fff;
+  border-radius: 50%;
+
+  background-color: red;
+  transition: 0.9s;
+}
+
+
+/* eeeeeeeennnnnnnnnnnnnddddddddddddd side page with pic discription and social links css */
+
+
+/* about me css */
+
+.intro {
+  margin-top: 4%;
+}
+
+.intro h1::after {
+  content: "";
+  display: block;
+  width: 8%;
+  height: 0.3%;
+  background: red;
+  position: absolute;
+}
+
+
+h4 {
+  color: red;
+  text-transform: capitalize;
+
+}
+
+a button {
+  border: none;
+  border-radius: 50% 0 50% 0;
+  height: 10%;
+  padding: 5%;
+  background-color: red;
+  margin-left:50%;
+  color: #fff;
+}
+
+
+table tr td,th {
+  width: 39.5%;
+}
+
+table tr td {
+  line-height: 450%;
+}
+
+.education-table,
+tr {
+  margin-top: 6%;
+  
+}
+
+.education-table td::after {
+  content: "";
+  display: block;
+  width: 18%;
+  height: 0.3%;
+  background: red;
+  position: absolute;
+
+}
+
+
+/* about me css end */
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+/*
+.privios-edu-info {
+  margin: 6% -5px;
+
+}
+*/
+
+/* Clear floats after the columns */
+.privios-edu-info{
+    margin-top: 5%;
+}
+.privios-edu-info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.my-edu-content{
+    margin-left: 5%;
+    margin-top: -1.5%;
+}
+
+.card .circle .my-edu-content h5::before{
+    content: "";
+  display: block;
+  width: 0.7%;
+  height: 29%;
+margin-top: 3%;
+    margin-left: -3%;
+  background: red;
+  position: absolute;
+    
+}
+.card .circle::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin-right: 15%;
+    border-radius: 50px;
+    background: red;
+    border: 3px solid red;
+}
+
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 9%;
+  
+  background-color: #f1f1f1;
+}
+
+
+
+/*my project page css*/
+.My-project h1 {
+  margin-top: 10%;
+}
+
+.My-project h1::after {
+  content: "";
+  display: block;
+  width: 8%;
+  height: 0.7%;
+    margin-top: 2%;
+  background: red;
+  position: absolute;
+}
+
+
+
+
+.connect-me .fa{
+  margin: 10% 0  0 50%;
+  font-size: 200%;
+  color: red;
+
+}
+.connect-me .msg{
+  position: relative;
+  margin-left: 35%;
+}
+.another-msg{
+  margin: 10% 0  0 30%;
+}
+.mail-me-btn{
+  margin: 10% 0  0 40%;
+}
+
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+  background: #3b3b3b;
+}
+::-webkit-scrollbar-thumb{
+  background: #fc9c76;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #ff0404;
+}
+
+.Home-page,.nd-page,.contactme{
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+}
+/* 
+
+
+
+.profile h2{
+  color: #149ddd;
+}
+  a {
+    color: #149ddd;
+    text-decoration: none;
+  }
+
+.main{
+  
+    text-align: center;
+    text-transform: capitalize;
+}
+.sh img{
+    border-radius: 50%;
+    border-color: #fff;
+    border-width: 10%;
+    border-style: solid;
+    height: 10em;
+    width: 10em;
+    margin-top: 30%;
+}
+
+.social-media .fa{
+  font-size: 15px;
+    padding: 12px;
+    color: #fff;
+    border-radius: 50%;
+    
+    border-style: solid;
+    background-color: rgb(255, 0, 0);
+    transition: 0.9s;
+}
+.social-media .fa:hover{
+  padding: 10px;
+  color: #fff;
+  border-radius: 50%;
+
+  background-color: red;
+  transition: 0.9s;
+}
+
+.side-panal {
+  margin-top: 2%;
+  padding: 10px;
+  align-items: center;
+  margin-left: 20px;
+  
+}
+.side-panal h2{
+  margin-left: 8%;
+}
+.side-panal img{
+    border-radius: 50%;
+    margin-left: 1%;
+    height: 10em;
+    width: 10em;
+    
+}
+.list-other-pages ul{
+  padding: 10px;
+  margin-left: 8%;
+  list-style: none;
+  margin-top: 10px;
+  font-weight: 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.list-other-pages li{
+  line-height: 50px;
+  border-bottom: #149ddd;
+}
+.list-other-pages a{
+  text-decoration: none;
+}
+li::after{
+  -------------------
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+    -------------------------
+  content: "";
+  display: block;
+  width: 8%;
+  height: 0.5%;
+  background: #149ddd;
+  position: absolute;
+}
+
+.row p,h3 {
+  color: #149ddd;
+}
+
+ */
